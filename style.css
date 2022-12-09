@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+    
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black
+}
+
+/* Här specificerar jag att mina anchor taggar ska vara vita för att det inte ska påverka min header senare. */
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+header h1 {
+    font-family: 'Rubik Wet Paint', serif;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
