@@ -1,5 +1,7 @@
 body {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    
     
 }
 
@@ -8,28 +10,83 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
-    border: 1px solid black
+    height: 300px;
+    background-image: url("fotos/sssss.jpg");
 }
 
 /* Här specificerar jag att mina anchor taggar ska vara vita för att det inte ska påverka min header senare. */
 nav a {
     color: white;
     text-decoration: none;
+    margin-top: 20px;
+    margin-left: 10px; 
+    font-size: 13px;
 
 }
 
 header h1 {
     font-family: 'Rubik Wet Paint', serif;
+    font-size: 30px;
     
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.mainBtn {
+    background-color:#8D7A53;
+    opacity: 0.9;
+    margin-top: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Share Tech Mono', monospace;
+    border: none; 
+    
+}
+
+/* här bestämmer jag possition på bilderna */
+
+.homePic{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    
+
 
 }
 
+/* här specificerar jag bilderna isäg alltså storlek, höjd, space */
+.imgHome {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+footer a {
+    color: rgb(50, 46, 46);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 10px; 
+    font-size: 13px;
+}
+
+@media (min-width:600px) {
+    .imgHome {
+        width: 50%;
+    }    
+    header h1 {
+        font-size: 37px;
+    }
+
+    .homePic {
+        height: 100vh;
+    }
+
+}
 
 
