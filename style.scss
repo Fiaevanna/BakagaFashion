@@ -17,10 +17,6 @@ body {
   border: none;
 }
 
-.buyBtn {
-  padding: 0px;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -68,6 +64,54 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+
+.product {
+  .largeImg {
+    width: 100%;
+  }
+  /* flex för att få bilderna på rad, och spacebetween för att få mellanrum mellan bilderna, och wrap för att få överflödiga bilder på ny rad. */
+  .preview {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+      width: 30%;
+      margin-top: 10px;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3,
+    h4,
+    p {
+      font-family: "Rokkitt", serif;
+      font-weight: 300;
+      margin: 0;
+    }
+    h3 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      color: #ff0c0c;
+    }
+
+    p {
+      span {
+        color: #ff0c0c;
+      }
+    }
+    .mainBtn {
+      /* sätter 5px padding på top & bott sen 20 för sidorna på knapparna */
+      padding: 5px 20px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
   }
 }
 
