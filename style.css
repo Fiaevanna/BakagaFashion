@@ -1,92 +1,96 @@
+@charset "UTF-8";
 body {
-    background-color: rgb(255, 255, 255);
-    margin: 0px;
-    
-    
-}
-
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 300px;
-    background-image: url("fotos/sssss.jpg");
-}
-
-/* Här specificerar jag att mina anchor taggar ska vara vita för att det inte ska påverka min header senare. */
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-left: 10px; 
-    font-size: 13px;
-
-}
-
-header h1 {
-    font-family: 'Rubik Wet Paint', serif;
-    font-size: 30px;
-    
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
 }
 
 .mainBtn {
-    background-color:#8D7A53;
-    opacity: 0.9;
-    margin-top: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'Share Tech Mono', monospace;
-    border: none; 
-    
+  background-color: #8d7a53;
+  opacity: 0.9;
+  margin-top: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Share Tech Mono", monospace;
+  border: none;
+}
+
+.buyBtn {
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-image: url("fotos/sssss.jpg");
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  /* Här specificerar jag att mina anchor taggar ska vara vita för att det inte ska påverka min header senare. */
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+header h1 {
+  font-family: "Rubik Wet Paint", serif;
+  font-size: 30px;
 }
 
 /* här bestämmer jag possition på bilderna */
-
-.homePic{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    
-
-
+.homePic {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  /* här specificerar jag bilderna isäg alltså storlek, höjd, space */
+}
+.homePic .imgHome {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-/* här specificerar jag bilderna isäg alltså storlek, höjd, space */
-.imgHome {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+footer {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 footer a {
-    color: rgb(50, 46, 46);
-    text-decoration: none;
-    margin-top: 20px;
-    margin-left: 10px; 
-    font-size: 13px;
+  color: #ffffff;
+  mix-blend-mode: difference;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+footer h2 {
+  font-family: "Rubik Wet Paint", serif;
+  color: #ffffff;
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
-@media (min-width:600px) {
-    .imgHome {
-        width: 50%;
-    }    
-    header h1 {
-        font-size: 37px;
-    }
-
-    .homePic {
-        height: 100vh;
-    }
-
+/* Här anpassar jag till mobile first  */
+@media (min-width: 600px) {
+  header h1 {
+    font-size: 37px;
+  }
+  .homePic {
+    height: 100vh;
+  }
+  .homePic .imgHome {
+    width: 50%;
+  }
 }
 
-
+/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,8 @@
   "description": "BakagaFashion",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass style.scss style.css",
+    "watch": "sass style.scss style.css --watch"
   },
   "repository": {
     "type": "git",
