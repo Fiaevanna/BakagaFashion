@@ -31,7 +31,8 @@ header {
 
   nav {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    min-width: 350px;
 
     /* Här specificerar jag att mina anchor taggar ska vara vita för att det inte ska påverka min header senare. */
     a {
@@ -39,8 +40,11 @@ header {
       font-weight: bold;
       text-decoration: none;
       margin-top: 20px;
-      margin-left: 10px;
       font-size: 13px;
+    }
+
+    .active {
+      text-decoration: underline;
     }
   }
 
@@ -73,12 +77,14 @@ footer {
 
   nav {
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
     a {
       color: #ffffff;
       mix-blend-mode: difference;
       text-decoration: none;
       margin-top: 20px;
-      margin-left: 10px;
       font-size: 13px;
     }
   }
