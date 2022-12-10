@@ -1,0 +1,22 @@
+{
+  "name": "bakagafashion",
+  "version": "1.0.0",
+  "description": "BakagaFashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fiaevanna/BakagaFashion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fiaevanna/BakagaFashion/issues"
+  },
+  "homepage": "https://github.com/Fiaevanna/BakagaFashion#readme",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}
