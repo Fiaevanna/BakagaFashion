@@ -24,8 +24,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
   background-image: url("fotos/sssss.jpg");
+}
+header .mainBtn {
+  margin-bottom: 9px;
+  margin-top: 5px;
 }
 header nav {
   display: flex;
@@ -33,7 +36,8 @@ header nav {
   /* Här specificerar jag att mina anchor taggar ska vara vita för att det inte ska påverka min header senare. */
 }
 header nav a {
-  color: white;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
   text-decoration: none;
   margin-top: 20px;
   margin-left: 10px;
@@ -63,7 +67,10 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-footer a {
+footer nav {
+  margin-top: 10px;
+}
+footer nav a {
   color: #ffffff;
   mix-blend-mode: difference;
   text-decoration: none;
@@ -78,6 +85,16 @@ footer h2 {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin-bottom: 0px;
+}
+footer .hiroshi {
+  height: 50px;
+  opacity: 0.6;
+}
+footer p {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  font-size: 10px;
 }
 
 /* Här anpassar jag till mobile first  */
