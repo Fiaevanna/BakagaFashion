@@ -63,6 +63,7 @@ header h1 {
 }
 
 .product {
+  margin-bottom: 40px;
   /* flex för att få bilderna på rad, och spacebetween för att få mellanrum mellan bilderna, och wrap för att få överflödiga bilder på ny rad. */
 }
 .product .largeImg {
@@ -81,6 +82,12 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.product .info select {
+  width: 90px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  margin-bottom: 7px;
 }
 .product .info h3,
 .product .info h4,
