@@ -107,6 +107,9 @@ header h1 {
 .product .info h4 {
   color: #ff0c0c;
 }
+.product .info .orginalPrice {
+  color: black;
+}
 .product .info p span {
   color: #ff0c0c;
 }
