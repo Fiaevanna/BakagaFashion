@@ -158,6 +158,50 @@ footer p {
   font-size: 10px;
 }
 
+.mainAboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainAboutUs .aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Rokkitt", serif;
+  padding: 7px;
+  margin-top: 20px;
+}
+.mainAboutUs article {
+  width: 1000px;
+}
+.mainAboutUs section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+}
+.mainAboutUs section img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.mainAboutUs section h2,
+.mainAboutUs section h4,
+.mainAboutUs section h5,
+.mainAboutUs section p {
+  margin: 10px;
+}
+.mainAboutUs section h5 {
+  color: #2661b8;
+}
+.mainAboutUs section .employee {
+  margin-bottom: 20px;
+}
+
 /* Här anpassar jag till mobile first  */
 @media (min-width: 600px) {
   header h1 {
@@ -178,6 +222,9 @@ footer p {
   main {
     display: flex;
     flex-wrap: wrap;
+  }
+  .mainAboutUs {
+    width: 50px;
   }
 }
 
