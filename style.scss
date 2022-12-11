@@ -15,6 +15,11 @@ body {
   padding-right: 20px;
   font-family: "Share Tech Mono", monospace;
   border: none;
+
+  /* ett sätt att ändra på beteendet när musen är över elementet */
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 header {
@@ -179,5 +184,15 @@ footer {
     .imgHome {
       width: 50%;
     }
+  }
+  .product {
+    width: 50%;
+    padding: 10px;
+    /* här sätter jag box sizing border box för att kunna använda padding utan att påverka elemenets sanna storlek */
+    box-sizing: border-box;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
