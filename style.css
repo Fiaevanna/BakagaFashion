@@ -204,30 +204,34 @@ footer p {
   flex-direction: column;
   align-items: center;
   font-family: "Rokkitt", serif;
-  margin: 0px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 .mainRefrences h4 {
-  margin: 0px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 .mainRefrences h2 {
+  margin-top: 0px;
+}
+.mainRefrences i {
+  margin-bottom: 10px;
+}
+.mainRefrences h1 {
   margin: 0px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .mainRefrences article {
   width: 100%;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 .mainRefrences p {
   font-size: 15px;
   font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
 }
 .mainRefrences span {
   color: rgb(57, 53, 53);
-  margin-top: 10px;
 }
 
 /* Här anpassar jag till mobile first  */
