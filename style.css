@@ -295,7 +295,7 @@ footer p {
   width: 100%;
   box-sizing: border-box;
   height: 40px;
-  border-radius: none;
+  border-radius: 0;
 }
 .mainContentContactUs .contactFrom textarea {
   width: 100%;
