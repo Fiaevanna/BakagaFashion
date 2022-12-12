@@ -257,6 +257,89 @@ footer {
   }
 }
 
+.mainContentContactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  section {
+    font-family: "Rokkitt", serif;
+    max-width: 700px;
+
+    img {
+      height: 149px;
+      width: 303px;
+      margin-top: 30px;
+    }
+    p {
+      margin: 0px;
+      font-family: "Rokkitt";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+    }
+
+    .contactInfo {
+      text-align: left;
+    }
+  }
+
+  .contactText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    article {
+      p {
+        margin: 0px;
+        text-align: left;
+      }
+    }
+  }
+  /* här satte jag box-sizing för att inte låta mina element öka storleken 
+med padding utan ge padding på insidan så att den behåller sin sanna storlek */
+  .contactFrom {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+    .formInputWraper {
+      .formInput {
+        width: 100%;
+        margin-bottom: 10px;
+
+        label {
+          display: block;
+        }
+        input,
+        select {
+          width: 100%;
+          box-sizing: border-box;
+        }
+      }
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      margin-bottom: 60px;
+      background-color: white;
+      border: 1px solid black;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 /* Här anpassar jag till mobile first  */
 
 @media (min-width: 600px) {

@@ -234,6 +234,77 @@ footer p {
   color: rgb(57, 53, 53);
 }
 
+.mainContentContactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* här satte jag box-sizing för att inte låta mina element öka storleken 
+  med padding utan ge padding på insidan så att den behåller sin sanna storlek */
+}
+.mainContentContactUs section {
+  font-family: "Rokkitt", serif;
+  max-width: 700px;
+}
+.mainContentContactUs section img {
+  height: 149px;
+  width: 303px;
+  margin-top: 30px;
+}
+.mainContentContactUs section p {
+  margin: 0px;
+  font-family: "Rokkitt";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+.mainContentContactUs section .contactInfo {
+  text-align: left;
+}
+.mainContentContactUs .contactText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainContentContactUs .contactText article p {
+  margin: 0px;
+  text-align: left;
+}
+.mainContentContactUs .contactFrom {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+.mainContentContactUs .contactFrom .formInputWraper .formInput {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.mainContentContactUs .contactFrom .formInputWraper .formInput label {
+  display: block;
+}
+.mainContentContactUs .contactFrom .formInputWraper .formInput input,
+.mainContentContactUs .contactFrom .formInputWraper .formInput select {
+  width: 100%;
+  box-sizing: border-box;
+}
+.mainContentContactUs .contactFrom textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+}
+.mainContentContactUs .contactFrom button {
+  width: 100%;
+  margin-bottom: 60px;
+  background-color: white;
+  border: 1px solid black;
+}
+.mainContentContactUs .contactFrom button:hover {
+  cursor: pointer;
+}
+
 /* Här anpassar jag till mobile first  */
 @media (min-width: 600px) {
   header h1 {
