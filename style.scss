@@ -324,6 +324,7 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek 
         select {
           width: 100%;
           box-sizing: border-box;
+          height: 40px;
         }
       }
     }
@@ -338,6 +339,7 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek 
       margin-bottom: 60px;
       background-color: white;
       border: 1px solid black;
+      height: 40px;
       &:hover {
         cursor: pointer;
       }

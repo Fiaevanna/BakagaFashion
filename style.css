@@ -294,6 +294,7 @@ footer p {
 .mainContentContactUs .contactFrom .formInputWraper .formInput select {
   width: 100%;
   box-sizing: border-box;
+  height: 40px;
 }
 .mainContentContactUs .contactFrom textarea {
   width: 100%;
@@ -305,6 +306,7 @@ footer p {
   margin-bottom: 60px;
   background-color: white;
   border: 1px solid black;
+  height: 40px;
 }
 .mainContentContactUs .contactFrom button:hover {
   cursor: pointer;
