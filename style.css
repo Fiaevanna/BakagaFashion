@@ -198,6 +198,38 @@ footer p {
   margin-bottom: 20px;
 }
 
+/* la till margin och flec för att få rubriken i mitten och under varandra. */
+.mainRefrences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Rokkitt", serif;
+  margin: 0px;
+}
+.mainRefrences h4 {
+  margin: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.mainRefrences h2 {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.mainRefrences article {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.mainRefrences p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.mainRefrences span {
+  color: rgb(57, 53, 53);
+  margin-top: 10px;
+}
+
 /* Här anpassar jag till mobile first  */
 @media (min-width: 600px) {
   header h1 {
