@@ -307,10 +307,13 @@ footer {
 
   .contactText {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
 
     article {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       p {
         margin: 0px;
         text-align: left;
@@ -327,6 +330,8 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek,
     margin-top: 30px;
 
     .formInputWraper {
+      display: flex;
+      flex-wrap: wrap;
       .formInput {
         width: 100%;
         margin-bottom: 10px;
@@ -410,6 +415,32 @@ och minskade article till 47 % för att den extra 6 procenten ska bli mellanrum 
       justify-content: space-between;
       article {
         width: 47%;
+      }
+    }
+  }
+
+  .mainContentContactUs {
+    .contactText {
+      width: 100%;
+      max-width: 700px;
+      justify-content: space-between;
+      .textContainer {
+        text-align: left;
+        margin-top: 40px;
+      }
+      article {
+        display: block;
+        width: 50%;
+      }
+    }
+  }
+  .mainContentContactUs {
+    .contactFrom {
+      .formInputWraper {
+        justify-content: space-between;
+        .formInput {
+          width: 47%;
+        }
       }
     }
   }

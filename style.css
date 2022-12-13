@@ -282,6 +282,11 @@ footer p {
 }
 .mainContentContactUs .contactText {
   display: flex;
+  flex-wrap: wrap;
+}
+.mainContentContactUs .contactText article {
+  width: 100%;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -295,6 +300,10 @@ footer p {
   padding-right: 10px;
   box-sizing: border-box;
   margin-top: 30px;
+}
+.mainContentContactUs .contactFrom .formInputWraper {
+  display: flex;
+  flex-wrap: wrap;
 }
 .mainContentContactUs .contactFrom .formInputWraper .formInput {
   width: 100%;
@@ -365,6 +374,25 @@ footer p {
     justify-content: space-between;
   }
   .mainRefrences .articleContainer article {
+    width: 47%;
+  }
+  .mainContentContactUs .contactText {
+    width: 100%;
+    max-width: 700px;
+    justify-content: space-between;
+  }
+  .mainContentContactUs .contactText .textContainer {
+    text-align: left;
+    margin-top: 40px;
+  }
+  .mainContentContactUs .contactText article {
+    display: block;
+    width: 50%;
+  }
+  .mainContentContactUs .contactFrom .formInputWraper {
+    justify-content: space-between;
+  }
+  .mainContentContactUs .contactFrom .formInputWraper .formInput {
     width: 47%;
   }
 }
