@@ -10,7 +10,7 @@ body {
 }
 
 .mainBtn {
-  background-color: #8d7a53;
+  background-color: #cbb17c;
   color: black;
   opacity: 0.9;
   font-weight: bold;
@@ -21,6 +21,7 @@ body {
   padding-right: 20px;
   font-family: "Share Tech Mono", monospace;
   border: none;
+  font-size: 20px;
   /* ett sätt att ändra på beteendet när musen är över elementet */
 }
 .mainBtn:hover {
