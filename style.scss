@@ -373,6 +373,11 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek,
   }
 }
 
+.cart {
+  text-align: center;
+  height: 100vh;
+}
+
 /* Här anpassar jag till mobile first  */
 
 @media (min-width: 600px) {
