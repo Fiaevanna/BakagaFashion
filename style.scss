@@ -235,6 +235,14 @@ footer {
   font-family: "Rokkitt", serif;
   margin-left: 7px;
   margin-right: 7px;
+  .articleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    article {
+      width: 100%;
+    }
+  }
 
   h4 {
     margin-bottom: 0px;
@@ -391,6 +399,17 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek,
       max-width: 900px;
       .employee {
         width: 50%;
+      }
+    }
+  }
+  /* minskade storleken på min kontainer och sen satte jag spacebetwwn för mellarum
+och minskade article till 47 % för att den extra 6 procenten ska bli mellanrum  */
+  .mainRefrences {
+    .articleContainer {
+      max-width: 600px;
+      justify-content: space-between;
+      article {
+        width: 47%;
       }
     }
   }
