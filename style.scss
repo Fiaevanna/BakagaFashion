@@ -304,7 +304,7 @@ footer {
     }
   }
   /* här satte jag box-sizing för att inte låta mina element öka storleken 
-med padding utan ge padding på insidan så att den behåller sin sanna storlek */
+med padding utan ge padding på insidan så att den behåller sin sanna storlek, har satt det på både contact us och (products för desktop) */
   .contactFrom {
     width: 100%;
     padding-left: 10px;
@@ -364,6 +364,7 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek 
       width: 50%;
     }
   }
+
   .product {
     width: 50%;
     padding: 10px;
