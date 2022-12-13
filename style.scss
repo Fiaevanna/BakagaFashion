@@ -215,8 +215,14 @@ footer {
     h5 {
       color: #2661b8;
     }
+  }
+  .employeesOnly {
+    display: flex;
+    flex-wrap: wrap;
+
     .employee {
       margin-bottom: 20px;
+      width: 100%;
     }
   }
 }
@@ -375,8 +381,17 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek,
     display: flex;
     flex-wrap: wrap;
   }
-
+  /* jag sätter max-widht på både min about us
+  och employees för att texten samt bilden inte ska gå över 900px */
+  .aboutUs {
+    max-width: 900px;
+  }
   .mainAboutUs {
-    width: 50px;
+    .employeesOnly {
+      max-width: 900px;
+      .employee {
+        width: 50%;
+      }
+    }
   }
 }
