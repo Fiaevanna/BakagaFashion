@@ -206,6 +206,10 @@ footer {
       border: 1px solid gray;
       border-radius: 50%;
     }
+    h1 {
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
     h2,
     h4,
     h5,
@@ -239,6 +243,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
+    margin-top: 100px;
     article {
       width: 100%;
     }
@@ -306,6 +311,7 @@ footer {
   }
 
   .contactText {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 
@@ -327,7 +333,7 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek,
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 100px;
 
     .formInputWraper {
       display: flex;
@@ -410,6 +416,7 @@ med padding utan ge padding på insidan så att den behåller sin sanna storlek,
   /* minskade storleken på min kontainer och sen satte jag spacebetwwn för mellarum
 och minskade article till 47 % för att den extra 6 procenten ska bli mellanrum  */
   .mainRefrences {
+    height: 100vh;
     .articleContainer {
       max-width: 600px;
       justify-content: space-between;
@@ -420,6 +427,7 @@ och minskade article till 47 % för att den extra 6 procenten ska bli mellanrum 
   }
 
   .mainContentContactUs {
+    height: 100vh;
     .contactText {
       width: 100%;
       max-width: 700px;
