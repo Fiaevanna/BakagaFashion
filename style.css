@@ -398,6 +398,7 @@ footer p {
     width: 100%;
     max-width: 700px;
     justify-content: space-between;
+    flex-wrap: none;
   }
   .mainContentContactUs .contactText .textContainer {
     text-align: left;

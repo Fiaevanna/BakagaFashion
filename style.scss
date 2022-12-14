@@ -438,6 +438,7 @@ och minskade article till 47 % för att den extra 6 procenten ska bli mellanrum 
       width: 100%;
       max-width: 700px;
       justify-content: space-between;
+      flex-wrap: none;
       .textContainer {
         text-align: left;
         margin-top: 40px;
