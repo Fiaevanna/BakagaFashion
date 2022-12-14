@@ -307,6 +307,7 @@ footer p {
   padding-right: 10px;
   box-sizing: border-box;
   margin-top: 100px;
+  /* flex-wrap: wrap; */
 }
 .mainContentContactUs .contactFrom .formInputWraper {
   display: flex;
@@ -391,9 +392,9 @@ footer p {
   .mainRefrences .articleContainer article {
     width: 47%;
   }
-  .mainContentContactUs {
-    height: 100vh;
-  }
+  /*  .mainContentContactUs {
+     height: 100vh;  
+  }  */
   .mainContentContactUs .contactText {
     width: 100%;
     max-width: 700px;
