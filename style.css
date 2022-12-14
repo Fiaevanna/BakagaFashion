@@ -393,7 +393,7 @@ footer p {
     width: 47%;
   }
   .mainContentContactUs {
-    height: 100%; 
+    /* height: 100vh;  */
   }
   .mainContentContactUs .contactText {
     width: 100%;
